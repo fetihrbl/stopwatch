@@ -1,0 +1,92 @@
+/* StopWatch.css */
+
+.stop-watch {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    width: 300px;
+    margin: 50px auto;
+  }
+  
+  
+  .timer {
+    font-size: 48px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  
+  .control-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  
+  .btn-grp {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    width: 100%;
+  }
+  
+  
+  .btn {
+    padding: 12px 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  
+  .btn-start {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .btn-start:hover {
+    background-color: #218838;
+    transform: scale(1.05);
+  }
+  
+  
+  .btn-reset {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .btn-reset:hover {
+    background-color: #c82333;
+    transform: scale(1.05);
+  }
+  
+  
+  .btn-pause {
+    background-color: #ffc107;
+    color: white;
+  }
+  
+  .btn-pause:hover {
+    background-color: #e0a800;
+    transform: scale(1.05);
+  }
+  
+  
+  .btn-resume {
+    background-color: #17a2b8;
+  }
+  
+  .btn-resume:hover {
+    background-color: #138496;
+    transform: scale(1.05);
+  }
+  

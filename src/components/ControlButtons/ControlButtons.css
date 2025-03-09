@@ -1,0 +1,59 @@
+/* ControlButtons.css */
+
+.btn {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .control-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .btn-grp {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .btn-start {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .btn-start:hover {
+    background-color: #218838;
+  }
+  
+  .btn-reset {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .btn-reset:hover {
+    background-color: #c82333;
+  }
+  
+  .btn-pause {
+    background-color: #ffc107;
+    color: white;
+  }
+  
+  .btn-pause:hover {
+    background-color: #e0a800;
+  }
+  
+  .btn-resume {
+    background-color: #17a2b8;
+  }
+  
+  .btn-resume:hover {
+    background-color: #138496;
+  }
+  

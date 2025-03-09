@@ -1,0 +1,36 @@
+/* Timer.css */
+
+
+.timer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Arial', sans-serif;
+	font-weight: bold;
+	font-size: 30px;
+	color: #333;
+	gap: 5px;
+  }
+  
+  
+  .digits {
+	padding: 5px;
+	background-color: #f0f0f0;
+	border-radius: 5px;
+	text-align: center;
+  }
+  
+  
+  .mili-sec {
+	background-color: #e0e0e0;
+  }
+  
+  
+  .timer span {
+	transition: background-color 0.3s ease;
+  }
+  
+  .timer span:hover {
+	background-color: #ddd;
+  }
+  
